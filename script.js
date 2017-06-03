@@ -9,7 +9,7 @@ function todolistmethod() {
 }
 
 function deleteAll() {
-    document.getElementById("todoList").innerHTML = '';
+    document.getElementById("todoList").removechild();
 }
 
 
