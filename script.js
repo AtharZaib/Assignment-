@@ -7,16 +7,3 @@ function todolistmethod() {
 
 
 }
-
-function deleteAll() {
-    document.getElementById("todoList").removechild();
-}
-
-
-
-function deletecomp() {
-
-    item.innerHTML = null;
-    input.focus();
-
-}
